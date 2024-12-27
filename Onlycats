@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyCats - Photos de Chats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .content {
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            background-color: #ff8c00;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #e77b00;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>OnlyCats - Recevez une photo de chat exclusive !</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Envoyez 30€ via PayPal et recevez une photo de chat en privé !</h2>
+            <p>Pour recevoir votre photo exclusive de chat, cliquez sur le lien ci-dessous et envoyez 30€ via PayPal.</p>
+            <a href="https://paypal.me/pegajr?country.x=FR&locale.x=fr_FR" class="cta-button">Envoyer 30€ via PayPal</a>
+        </div>
+
+        <div class="content">
+            <p>Une fois votre paiement effectué, je vous enverrai la photo de chat que vous avez demandée en privé, directement par e-mail ou message privé. 🐱💖</p>
+            <p>Les chats sont des créatures mystérieuses et fascinantes, toujours prêtes à nous surprendre avec leurs comportements uniques. Saviez-vous que les chats peuvent sauter jusqu'à six fois la longueur de leur corps ? Ils ont aussi un odorat beaucoup plus développé que celui des humains, ce qui leur permet de détecter des odeurs invisibles à nos yeux.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 OnlyCats. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
